@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+      box-sizing: border-box;
+}
+header{
+    width:100vw;
+    height: 170px;
+    background-color: rgb(68,48, 48);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    box-shadow: 0vw 1vw 1vw rgb(167, 14, 228);
+    z-index: 5;
+    
+}
+
+footer{
+    min-width:100vw;
+    height: 120px;
+    background-color: rgb(68,48, 48);
+    color: white;
+    bottom: 0;
+    box-shadow: 0vw 1vw 5vw rgb(167, 14, 228);
+}
+
+#menu{
+    right: 0;
+    margin-left: 15%;
+}
+
+main{ 
+    height: 500vh;
+    width: 100vw;
+    background-color: black;
+}
+ 
+#About{
+    display:inline-flex;
+    color: white;
+    border: 5px groove;
+    height: 700px;
+    margin-top:-5%;
+    border-left: none;
+    border-right: none;
+    width: 100vw;
+    box-shadow: 0vw 1vw 4vw rgb(191, 9, 211);
+    background: url(/image/5b129de44c25ee014c31ad03590458d8.jng.jpg) no-repeat center center/cover;
+
+}
+
+#ResumeBox{
+    color: white;
+    border: 5px groove;
+    height: 800px;
+    margin-top:5%;
+    border-left: none;
+    border-right: none;
+    width: 100vw;
+    box-shadow: 0vw 1vw 4vw white;
+    background: url(/image/Space.jpg) no-repeat center center/cover;
+}
+
+#ProjectBox{
+     height: 800px;
+     width: 100vw;
+     margin-top: 5%;
+     box-shadow: 0vw 1vw 4vw rgb(191, 9, 211);
+     border-left: none;
+     border-right: none;
+     background: url(/image/Purple.jpg) no-repeat center center/cover;
+}
+
+#ProfileImage{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    margin-left:10px;
+    margin-top: 5%;
+    box-shadow: 0vw 1vw 4vw rgb(191, 9, 211);
+}
+
+#ImageUl{
+    display: inline-flex;
+    list-style:none;
+}
+
+.ImageLi{
+    width: 200px;
+    margin-left: 60px;
+    margin-top: 2%;
+}
+#Developer{
+ font-family: century;
+ text-align: center;
+background-color: black;
+color: white;
+border-radius: 10px;
+box-shadow:0vw 1vw 1vw white;
+}
+#AboutMe, #Skills, #Testimonial, #Education, #Experience{
+color: white;
+background-color: black;
+border-radius: 10px;
+font-family: century;
+height: 30px;
+width: 130px;
+margin-top: 6%;
+margin-left: 100px;
+text-align: center;
+scroll-margin-block-start: 200px;
+}
+
+#Education, #Experience{
+    margin-top: 4%;
+    margin-left: 45%;
+    margin-right: 0;
+    box-shadow: 0vw 1vw 1vw white ;
+    background-color: white;
+    color: black;
+}
+
+#Skills{
+    width: 100px;
+    margin-left: 125px;
+}
+
+#Testimonial{
+    width:170px;
+    margin-left: 100px;
+}
+
+#AboutMe:hover, #Skills:hover, #Testimonial:hover{
+box-shadow: 0vw 1vw 1vw rgb(167, 14, 228); ;
+transition: all .5s ease;
+}
+
+#information{
+  margin-top: 4%;
+  font-size: large;
+  box-shadow: 0vw 1vw 4vw rgb(191, 9, 211);
+  border-radius: 25px;
+  padding: 10px;
+  margin-right:5px ;
+}
+
+#SkillList, #TestList{
+    text-align: center;
+    list-style: none;
+    margin-top: 4%;
+    margin-left: 20px;
+    border-radius: 25px;
+    box-shadow: 0vw 1vw 4vw rgb(191, 9, 211);
+}
+
+.SkillList{
+    height: 20px;
+}
+
+#Move{
+  margin-left:100px ;  
+  margin-right:150px;
+  padding-left: 190px;
+  width: 700px; 
+  border: 1px solid;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  border: none;
+  height: 350px;
+  text-align:left;
+}
+#SkillsMove{
+    margin-right: 30px;
+}
+#NavUl{
+  display: inline-flex;
+}
+
+.Navli{
+    list-style: none;
+    padding: 50px;
+    font-size: large;
+
+}
+
+ a{
+    text-decoration: none;
+    color: white;
+ }
+a:hover{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0vw 1vw 1vw rgb(167, 14, 228);
+  transition: all .5s ease;
+}
+ #Icon{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   margin-top: 0.7%;
+   margin-left: 1%;
+   padding: 0;
+   box-shadow: 0vw 1vw 4vw rgb(43, 15, 63);
+   transition:2.5s;
+ }
+ #Icon:hover{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 0.7%;
+    margin-left: 1%;
+    padding: 0;
+    box-shadow: 0vw 1vw 4vw rgb(132, 10, 180);
+  
+    transform: rotate(720deg);
+  }
+ #menu #NavUl #menu1{
+     position: relative;
+ }
+ .sub-menu, .sub-menu2, .sub-menu3{
+     display: none;
+     position: absolute;
+     color: black;
+     list-style: none;
+ }
+
+#menu1:hover .sub-menu{
+     display: block;
+     padding: 10px;
+     width: 500px;
+ }
+ #LandingPage {
+     background: url(../image/maxresdefault.jpg) no-repeat center center/cover ;
+     height: 675px;
+     width: 100vw;
+ }
+ #menu #NavUl #menu2{
+    position: relative;
+}
+
+#menu2:hover .sub-menu2{
+    display: block;
+    padding: 10px;
+}
+
+#menu #NavUl #menu3{
+    position: relative;
+}
+
+#menu3:hover .sub-menu3{
+    display: block;
+    padding: 10px;
+    width: 300px;
+}
+#LandingPage{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-family: century;
+    color: rgb(10, 0, 12);
+    box-shadow: 0vw 1vw 4vw rgb(141, 5, 159);
+    border-radius: 20px;
+    border-style: 1px groove;
+}
+
+#Margin{
+    margin-left:29%;
+    height: 200px;
+    align-self: center;
+    width: 600px;
+    top: 400px;
+
+}
+#Text{
+    font-size:100px;
+    top: 400px;
+    text-shadow: 10px 10px 10px white;
+
+}
+
+.Content{
+    width: 900px;
+    height: 100px;
+    margin-top: 3%;
+    margin-left: 20%;
+    box-shadow: 0vw 1vw  4vw white;
+    border-radius: 25px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.height{
+    height: 45px;
+}
+
+i.fa:before{
+   margin-right: 8px;
+}
+
+.container{
+    color: white;
+}
+
+#Project1{
+    height: 500px;
+    width:800px;
+}
